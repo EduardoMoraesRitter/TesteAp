@@ -47,5 +47,9 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-console.log("app.js");
+
+app.listen(8080, function () {
+    console.log('Servidor express foi iniciado com sucesso...');
+});
+
 module.exports = app;
