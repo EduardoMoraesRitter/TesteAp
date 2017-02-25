@@ -2,9 +2,6 @@
   "name": "demo",
   "version": "0.0.0",
   "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
-  },
   "dependencies": {
     "applicationinsights": "^0.18.0",
     "body-parser": "~1.16.0",
