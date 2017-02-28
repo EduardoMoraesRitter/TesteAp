@@ -1,0 +1,4 @@
+var app = require('../app');
+
+var server = app.listen(3300);
+console.log('Servidor Express iniciado na porta %s', server.address().port);

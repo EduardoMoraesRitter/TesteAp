@@ -4,5 +4,4 @@ app = express();
 app.get('/', function(req, res){
     res.send('Ola Mundo');
 });
-var server = app.listen(3300);
-console.log('Servidor Express iniciado na porta %s', server.address().port);
+module.exports = app;
