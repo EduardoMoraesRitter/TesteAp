@@ -3,7 +3,7 @@ var http = require('http');
 var app = express();
 
 app.get('/', function(req, res){
-    res.send('agora foi');
+    res.send('Porta dinamica');
 });
 
 var server = http.createServer(app);
