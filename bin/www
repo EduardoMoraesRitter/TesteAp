@@ -1,8 +1,10 @@
-var app = require('../app');
+var express = require('express'), 
+app = express();
+//var app = require('../app');
 var http = require('http');
 app.get('/', function(req, res){
     res.send('Ola Mundo');
 });
 var server = http.createServer(app);
-server.listen(3300);
+server.listen(3000);
 console.log('Servidor Express iniciado na porta %s', server.address().port);
